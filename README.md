@@ -6,6 +6,7 @@
 
 - **Backend:** ASP.NET Web API (RESTful controllers)
 - **Frontend:** Angular
+- **Testing:** xUnit for backend unit tests
 
 ## 🧩 Features
 
@@ -17,6 +18,10 @@
 ## 🔄 Application Flow
 
 The ASP.NET Web API exposes RESTful endpoints through controller classes that handle HTTP requests for product-related actions. The Angular frontend consumes these endpoints to fetch, display, and manipulate product data in real time.
+
+## ✅ Testing
+
+Unit tests have been written using **xUnit** to ensure the reliability and correctness of backend functionality. These tests focus on the controller layer, validating key operations such as retrieving, creating, updating, and deleting products.
 
 ## 🎯 Purpose
 

@@ -1,0 +1,25 @@
+<div *ngIf="products">
+
+    <div class="container">
+        <h3 class="mt-3">Product Listing</h3>
+        <div class="row">
+            <div *ngFor="let product of products" class="col-md-4 mb-4 mt-4">
+                <div class="card h-100 w-75 m-2">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">R{{ product.price }}</h6>
+                        <p class="card-text">{{ product.description }}</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button type="button" class="btn btn-primary" (click)="router.navigate(['/edit-product', product.id])">Edit</button>
+                        <button type="button" class="btn btn-danger" (click)="deleteProduct(product.id)">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+

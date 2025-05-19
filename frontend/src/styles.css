@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.form-group1 {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #1786ef;
+}
+
+
+
+.form-group1 label {
+    display: block;
+    margin-bottom: 5px;
+    color: #001844;
+}
+
+.form-control1 {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-control1:focus {
+    border-color: #869ec3;
+    outline: none;
+}
+
+textarea.form-control1 {
+    height: 100px;
+    resize: none;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1786ef;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary1 {
+    background-color: #1786ef;
+    color: #ffffff;
+}
+
+.btn-primary1:hover {
+    background-color: #e0e0e0;
+    color:#001844;
+}
+
+.btn-cancel1 {
+    background-color: #cd1543;
+    color: #ffffff;
+}
+
+.btn-cancel1:hover {
+    background-color: #e0e0e0;
+    color:#cd1543;
+}
